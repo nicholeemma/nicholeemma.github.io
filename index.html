@@ -6,8 +6,8 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jiayue (Nichole) Yang | Senior Software Engineer &amp; AI Engineer</title>
-<meta name="description" content="Portfolio of Jiayue (Nichole) Yang, an AI and senior software engineer specializing in distributed systems, storage, telemetry, and production infrastructure."/>
+<title>Jiayue (Nichole) Yang | Senior Software Engineer, AI Agents &amp; Infrastructure</title>
+<meta name="description" content="Portfolio of Jiayue (Nichole) Yang, a Senior Software Engineer building AI agents, backend platforms, and production infrastructure."/>
 
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="css/aos.css" rel="stylesheet">
@@ -21,7 +21,7 @@
 	<nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
 	  <div class="container">
 		<div class="navbar-translate">
-		  <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+			  <button class="navbar-toggler site-nav-toggle" type="button" aria-controls="navigation" aria-expanded="false" aria-label="Open navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
 		</div>
 		<div class="collapse navbar-collapse justify-content-end" id="navigation">
 		  <ul class="navbar-nav">
@@ -35,6 +35,7 @@
 		</div>
 	  </div>
 	</nav>
+		<button class="site-nav-backdrop" type="button" aria-label="Close navigation" tabindex="-1"></button>
   </div>
 </header>
 <div class="page-content">
@@ -47,7 +48,8 @@
 	<div class="content-center">
 	  <div class="cc-profile-image"><img src="images/head.jpg" alt="Portrait of Jiayue Nichole Yang"/></div>
 	  <h1 class="h2 title">Jiayue (Nichole) Yang</h1>
-	  <p class="category text-white hero-role">Senior Software Engineer | AI Engineer | Distributed Systems, Storage, Telemetry &amp; Automation</p>
+		  <p class="category text-white hero-role">Senior Software Engineer | AI Agents &amp; Infrastructure</p>
+		  <p class="hero-meta">Melbourne / Sydney | Full working rights in Australia</p>
 	  <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contact Me</a>
 	  <a class="btn btn-primary" href="images/yangjiayue_resume.pdf" download data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download Resume</a>
 	</div>
@@ -70,10 +72,8 @@
 	<div class="col-lg-12 col-md-12">
 	  <div class="card-body">
 		<div class="h4 mt-0 title">About</div>
-		<p>I am a Senior Software Engineer with 6 years of experience designing and delivering distributed systems, backend platforms, and infrastructure automation across VMware storage systems and Citi credit-risk analytics platforms. My work spans disaster recovery, telemetry and data platforms, AI-assisted troubleshooting, Kubernetes, production reliability, and customer-facing SDKs and infrastructure workflow automation tools used by enterprise customers across both on-premises and cloud environments.</p>
-		<p>I have a strong track record of turning complex infrastructure and operational challenges into scalable, production-ready systems. Key achievements include reducing disaster recovery time by over 90%, cutting telemetry storage costs by 70%, and improving regression detection effectiveness by 75% through machine learning and data-driven automation.</p>
-		<p>Beyond implementation, I take end-to-end ownership of engineering problems, from architecture and system design to development, production rollout, and operational improvement. I work closely with cross-functional teams to translate business and reliability requirements into practical technical solutions, with a consistent focus on fault tolerance, data trustworthiness, scalability, and operational efficiency.</p>
-		<p>I hold <strong>full working rights in Australia</strong> (no sponsorship required) and am currently seeking senior software engineering opportunities in Melbourne or Sydney.</p>
+			<p>I am a Senior Software Engineer with 6 years of experience building distributed systems, backend platforms, and infrastructure automation across VMware storage systems and Citi credit-risk analytics.</p>
+			<p>My recent work brings AI into infrastructure operations: I helped deliver a Claude-powered agent that grounds vSAN troubleshooting in product knowledge and read-only system diagnostics. My background in disaster recovery, migration, and telemetry helps me build agent systems that remain reliable and observable in production.</p>
 		</div>
 	</div>
 	
@@ -91,7 +91,8 @@
 		  <div><strong>Languages</strong><span>Python, Java, C#, Bash, PowerShell, Ruby, TypeScript</span></div>
 		  <div><strong>Frameworks &amp; APIs</strong><span>Flask, FastAPI, ASP.NET, Spring Boot, React, REST APIs</span></div>
 		  <div><strong>Cloud &amp; Infrastructure</strong><span>Kubernetes, Docker, Linux, AWS (Certified Cloud Practitioner)</span></div>
-		  <div><strong>AI &amp; Data</strong><span>RAG, LLM agents, LangGraph, machine learning, SQL, Kafka, Spark, Superset, Trino, Grafana</span></div>
+		  <div><strong>AI Agents</strong><span>LLM agents, RAG, MCP tools, agent evaluation, LangGraph, machine learning</span></div>
+		  <div><strong>Data Platforms</strong><span>SQL, Kafka, Spark, Superset, Trino, Grafana</span></div>
 		  <div><strong>DevOps</strong><span>CI/CD, Jenkins, GitHub Actions</span></div>
 		</div>
   </div>
@@ -113,96 +114,125 @@
 	  </div>
 	  <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
 		<div class="card-body">
-		  <div class="h5">Software Engineer III</div>
-		  <h5 class="experience-group-title">Featured Projects</h5>
+			  <div class="h5">Software Engineer III</div>
+			  <h5 class="experience-group-title">Selected Projects</h5>
+			  <section class="experience-track" aria-labelledby="track-ai-agents-ml-systems">
+				<h5 class="experience-track-title" id="track-ai-agents-ml-systems">AI Agents &amp; ML Systems</h5>
 
-		  <article class="experience-project">
-			<div class="experience-project-heading"><h6>Agentic Troubleshooting and Failure Intelligence Platform</h6><span>Core Member</span><time>2025 - 2026</time></div>
-			<p class="experience-tech">Python ADK | Java Spring | BERT | RAG | MCP</p>
-			<ul>
-			  <li>Integrated BERT-based failure classification and similarity matching into vSAN test workflows, automatically categorizing reports and clustering related historical cases across thousands of daily test reports.</li>
-			  <li>Extended and deployed the platform as a Claude-powered troubleshooting agent on VCF/VKS Kubernetes for 100+ team members, combining domain-aware RAG with read-only MCP diagnostics across health, logs, configuration, and network evidence; bridged symptom-to-root-cause terminology gaps, improved Top-5 recall from 68% to 90%, achieved 78% Root Cause Match@3, and refined retrieval using user feedback.</li>
-			</ul>
-		  </article>
+				<article class="experience-project">
+				  <div class="experience-project-heading"><h6>Agentic Troubleshooting and Failure Intelligence Platform</h6><span>Core Member</span><time>2025 - 2026</time></div>
+				  <p class="experience-tech">Python ADK | Java Spring | Kubernetes | BERT | RAG | MCP | Retrieval Evaluation</p>
+				  <ul>
+					<li>Integrated BERT-based failure classification and similarity matching into vSAN test workflows, automatically categorizing reports and clustering related historical cases across thousands of daily test reports.</li>
+					<li>Extended and deployed the platform as a Claude-powered troubleshooting agent on VCF/VKS Kubernetes for 100+ team members, combining domain-aware RAG with read-only MCP diagnostics across health, logs, configuration, and network evidence; bridged symptom-to-root-cause terminology gaps, improved Top-5 recall from 68% to 90%, achieved 78% Root Cause Match@3, and refined retrieval using user feedback.</li>
+				  </ul>
+				  <p class="experience-project-link"><a class="smooth-scroll" href="#case-study-ai">Read AI case study <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
+				</article>
 
-		  <article class="experience-project">
-			<div class="experience-project-heading"><h6>Performance Modeling &amp; Anomaly Detection Platform</h6><span>Project Lead</span><time>2022 - 2023</time></div>
-			<p class="experience-tech">Python | Flask | Kubernetes | Linear Regression | Cubist | LSTM</p>
-			<ul>
-			  <li>Built a performance prediction tool to enhance the reliability of vSAN system testing and monitoring, reducing triage time by 40% and enabling proactive anomaly detection that identified 75%+ of regressions before test completion.</li>
-			  <li>Designed and deployed a full-stack Flask web application on Kubernetes to ensure scalability and reliability for automated system-test performance data collection and storage, supporting downstream machine learning model training.</li>
-			  <li>Led a team of three interns in developing and optimizing predictive models, driving feature engineering, correlation analysis, and hyperparameter tuning across linear regression, Cubist, and LSTM models to improve prediction accuracy by 32%.</li>
-			</ul>
-		  </article>
+				<article class="experience-project">
+				  <div class="experience-project-heading"><h6>Performance Modeling &amp; Anomaly Detection Platform</h6><span>Project Lead</span><time>2022 - 2023</time></div>
+				  <p class="experience-tech">Python | Flask | Kubernetes | Linear Regression | Cubist | LSTM</p>
+				  <ul>
+					<li>Built a performance prediction tool to enhance the reliability of vSAN system testing and monitoring, reducing triage time by 40% and enabling proactive anomaly detection that identified 75%+ of regressions before test completion.</li>
+					<li>Designed and deployed a full-stack Flask web application on Kubernetes to ensure scalability and reliability for automated system-test performance data collection and storage, supporting downstream machine learning model training.</li>
+					<li>Led a team of three interns in developing and optimizing predictive models, driving feature engineering, correlation analysis, and hyperparameter tuning across linear regression, Cubist, and LSTM models to improve prediction accuracy by 32%.</li>
+				  </ul>
+				</article>
+			  </section>
 
-		  <article class="experience-project">
-			<div class="experience-project-heading"><h6>Enterprise Telemetry Platform</h6><span>Project Lead</span><time>2024 - 2026</time></div>
-			<p class="experience-tech">Python | SQL | Superset | Kafka | GitHub Actions | Jenkins</p>
-			<ul>
-			  <li>Led the architecture and evolution of a high-volume telemetry platform serving 55K+ deployments and 11K+ customers, owning end-to-end collection, Kafka-based ingestion, ETL pipelines, and analytics delivery powering 140+ business dashboards.</li>
-			  <li>Designed a runtime-configurable telemetry framework and re-architected high-volume data processing to improve collection scalability and release agility, reducing hourly memory peaks by 60% without disrupting downstream analytics.</li>
-			  <li>Established telemetry governance through automated CI/CD validation, end-to-end monitoring and alerting, and storage lifecycle management, improving dashboard accuracy by 30%, reducing storage usage by 75%, and accelerating issue detection.</li>
-			  <li>Led technical coordination across telemetry producers and downstream consumers, helping 10+ engineers independently build product dashboards to track feature adoption and usage while standardizing shared data-pipeline and platform practices.</li>
-			</ul>
-		  </article>
+			  <section class="experience-track" aria-labelledby="track-distributed-systems">
+				<h5 class="experience-track-title" id="track-distributed-systems">Distributed Systems &amp; Cloud</h5>
 
-		  <h5 class="experience-group-title experience-group-title--additional">Additional Projects</h5>
+				<article class="experience-project">
+				  <div class="experience-project-heading"><h6>Distributed Site Takeover and Disaster Recovery</h6><span>Core Member</span><time>2024 - 2026</time></div>
+				  <p class="experience-tech">Python | C++ | Shell | Distributed State Machines | Fault-Tolerant Workflows</p>
+				  <ul>
+					<li>Designed and delivered a distributed disaster-recovery framework for a two-site synchronous storage system, establishing the first automated recovery path and enabling up to 70% of affected VM workloads to restart on the surviving site during severe failures.</li>
+					<li>Architected a leader-worker coordination protocol and persistent state machine to orchestrate distributed recovery across storage hosts, enforce stage prerequisites, aggregate progress and failure status, and safely resume execution following leader failure.</li>
+					<li>Expanded Takeover coverage by diagnosing cross-component production edge cases, delivering recovery automation for <a href="https://knowledge.broadcom.com/external/article/439980/some-virtual-machines-become-disconnecte.html" target="_blank" rel="noopener">disconnected VMs</a>, <a href="https://knowledge.broadcom.com/external/article/439976/restoring-vsan-file-service-following-a.html" target="_blank" rel="noopener">vSAN File Services</a>, and other services, and publishing reusable workarounds and knowledge-base guidance.</li>
+				  </ul>
+				  <p class="experience-project-link"><a class="smooth-scroll" href="#case-study-recovery">Read case study <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
+				</article>
 
-		  <article class="experience-project">
-			<div class="experience-project-heading"><h6>Distributed Site Takeover and Disaster Recovery</h6><span>Core Member</span><time>2024 - 2026</time></div>
-			<p class="experience-tech">Python | C++ | Shell</p>
-			<ul>
-			  <li>Designed and delivered a distributed disaster-recovery framework for a two-site synchronous storage system, establishing the first automated recovery path and enabling up to 70% of affected VM workloads to restart on the surviving site during severe failures.</li>
-			  <li>Architected a leader-worker coordination protocol and persistent state machine to orchestrate distributed recovery across storage hosts, enforce stage prerequisites, aggregate progress and failure status, and safely resume execution following leader failure.</li>
-			  <li>Expanded Takeover coverage by diagnosing cross-component production edge cases, delivering recovery automation for <a href="https://knowledge.broadcom.com/external/article/439980/some-virtual-machines-become-disconnecte.html" target="_blank" rel="noopener">disconnected VMs</a>, <a href="https://knowledge.broadcom.com/external/article/439976/restoring-vsan-file-service-following-a.html" target="_blank" rel="noopener">vSAN File Services</a>, and other services, and publishing reusable workarounds and knowledge-base guidance.</li>
-			</ul>
-		  </article>
+				<article class="experience-project">
+				  <div class="experience-project-heading"><h6>Cloud-Orchestrated Infrastructure Migration Platform (vSAN OSA &rarr; ESA)</h6><span>Core Member</span><time>2023 - 2024</time></div>
+				  <p class="experience-tech">Java | Spring Boot | Kubernetes | Restart-Safe Workflows</p>
+				  <ul>
+					<li>Built a Kubernetes-based hybrid-cloud migration platform that automated VM workload transitions from legacy vSAN OSA clusters to next-generation ESA infrastructure, coordinating a SaaS control plane with agents in customer-managed data centers through a cloud gateway.</li>
+					<li>Delivered end-to-end migration planning and execution—from compatibility and capacity prechecks to scheduling and VM-level tracking—extending the SaaS control plane from infrastructure visibility to self-service lifecycle automation and removing a key barrier to ESA adoption.</li>
+					<li>Engineered restart-safe workflows with persisted state, idempotent retries, bounded concurrency, and partial-failure recovery; validated reliable execution at 1,000+ VM scale while avoiding full workflow restarts after service or network disruptions.</li>
+				  </ul>
+				</article>
+			  </section>
 
-		  <article class="experience-project">
-			<div class="experience-project-heading"><h6>Continuous Unit Testing &amp; Automated Failure Triage Platform</h6><span>Project Lead</span><time>2021 - 2026</time></div>
-			<p class="experience-tech">Python | GitHub Actions</p>
-			<ul>
-			  <li>Designed and scaled Python unit-test infrastructure integrated into commit precheck workflows, automatically validating every change for 100+ team members, reducing manual testing by 60%, and driving iterative improvements from user feedback.</li>
-			  <li>Built an automated failure-triage system that correlated code changes and dependency failures to identify root causes and route issues to the responsible engineer, cutting triage effort by 80% and reducing pipeline downtime by 45%.</li>
-			  <li>Implemented module-level pass-rate monitoring and daily GitHub Actions reporting to Google Chat, giving teams proactive visibility into pipeline health and faster feedback on regressions.</li>
-			</ul>
-		  </article>
+			  <section class="experience-track" aria-labelledby="track-data-platforms">
+				<h5 class="experience-track-title" id="track-data-platforms">Data Platforms</h5>
 
-		  <article class="experience-project">
-			<div class="experience-project-heading"><h6>Test Infrastructure Resource &amp; Queue Management Platform</h6><span>Project Lead</span><time>2025 - 2026</time></div>
-			<p class="experience-tech">Python | Flask | GitHub APIs</p>
-			<ul>
-			  <li>Designed and delivered an AI-assisted Flask resource-orchestration platform in 14 days using Cursor, integrating internal infrastructure and GitHub APIs for priority scheduling, quota enforcement, and automated resource lifecycle management; automated allocation, capacity monitoring, usage tracking, and bottleneck alerts, reducing infrastructure waste by 60% and improving operational visibility.</li>
-			</ul>
-		  </article>
+				<article class="experience-project">
+				  <div class="experience-project-heading"><h6>Enterprise Telemetry Platform</h6><span>Project Lead</span><time>2024 - 2026</time></div>
+				  <p class="experience-tech">Python | SQL | Kafka | ETL | Superset | CI/CD | Monitoring &amp; Alerting</p>
+				  <ul>
+					<li>Led the architecture and evolution of a high-volume telemetry platform serving 55K+ deployments and 11K+ customers, owning end-to-end collection, Kafka-based ingestion, ETL pipelines, and analytics delivery powering 140+ business dashboards.</li>
+					<li>Designed a runtime-configurable telemetry framework and re-architected high-volume data processing to improve collection scalability and release agility, reducing hourly memory peaks by 60% without disrupting downstream analytics.</li>
+					<li>Established telemetry governance through automated CI/CD validation, end-to-end monitoring and alerting, and storage lifecycle management, improving dashboard accuracy by 30%, reducing storage usage by 75%, and accelerating issue detection.</li>
+					<li>Led technical coordination across telemetry producers and downstream consumers, helping 10+ engineers independently build product dashboards to track feature adoption and usage while standardizing shared data-pipeline and platform practices.</li>
+				  </ul>
+				  <p class="experience-project-link"><a class="smooth-scroll" href="#case-study-telemetry">Read case study <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
+				</article>
+			  </section>
 
-		  <article class="experience-project">
-			<div class="experience-project-heading"><h6>vSAN Customer-Facing Automation &amp; SDKs</h6><span>Project Lead</span><time>2021 - 2026</time></div>
-			<p class="experience-tech">C# | .NET | Python | Java | Bazel</p>
-			<ul>
-			  <li><strong><a class="smooth-scroll" href="#powercli-vsan">PowerCLI vSAN Module:</a></strong> Led development of PowerShell cmdlets for vSAN across six PowerCLI releases, enabling large-scale automation and integration into enterprise DevOps pipelines. Achieved 2,000+ monthly active users and adoption by 200+ enterprise customers.</li>
-			  <li><strong><a class="smooth-scroll" href="#orchestrator-vsan-plugin">VCF Operations Orchestrator vSAN Plugin:</a></strong> Delivered a Java-based plugin and 30+ prebuilt workflows, translating complex architectural requirements into automated drag-and-drop solutions; reduced manual configuration effort by 75% for high-profile clients including Morgan Stanley and FedEx.</li>
-			  <li><strong>vSAN SDK:</strong> Directed the lifecycle of multi-language SDKs in Python and Java using OpenAPI and Bazel; authored comprehensive sample code and developer guides that standardized how third-party partners interact with vSAN APIs.</li>
-			</ul>
-		  </article>
+			  <details class="experience-additional">
+				<summary><span>Additional Projects</span><span class="experience-additional-count">5 projects</span><i class="fa fa-chevron-down" aria-hidden="true"></i></summary>
+				<div class="experience-additional-body">
+				  <section class="experience-track" aria-labelledby="track-infrastructure-automation">
+					<h5 class="experience-track-title" id="track-infrastructure-automation">Infrastructure Automation</h5>
+					<article class="experience-project">
+					  <div class="experience-project-heading"><h6>vSAN Customer-Facing Automation &amp; SDKs</h6><span>Project Lead</span><time>2021 - 2026</time></div>
+					  <p class="experience-tech">C# | .NET | PowerShell | Python | Java | OpenAPI | Bazel</p>
+					  <ul>
+						<li><strong><a class="smooth-scroll" href="#powercli-vsan">PowerCLI vSAN Module:</a></strong> Led development of PowerShell cmdlets for vSAN across six PowerCLI releases, enabling large-scale automation and integration into enterprise DevOps pipelines. Achieved 2,000+ monthly active users and adoption by 200+ enterprise customers.</li>
+						<li><strong><a class="smooth-scroll" href="#orchestrator-vsan-plugin">VCF Operations Orchestrator vSAN Plugin:</a></strong> Delivered a Java-based plugin and 30+ prebuilt workflows, translating complex architectural requirements into automated drag-and-drop solutions; reduced manual configuration effort by 75% for high-profile clients including Morgan Stanley and FedEx.</li>
+						<li><strong>vSAN SDK:</strong> Directed the lifecycle of multi-language SDKs in Python and Java using OpenAPI and Bazel; authored comprehensive sample code and developer guides that standardized how third-party partners interact with vSAN APIs.</li>
+					  </ul>
+					</article>
+				  </section>
 
-		  <article class="experience-project">
-			<div class="experience-project-heading"><h6>Distributed Data Migration Services</h6><span>Core Member</span><time>2023 - 2024</time></div>
-			<p class="experience-tech">Java | Spring Boot | Kubernetes</p>
-			<ul>
-			  <li>Developed Kubernetes-based data migration services, orchestrating large-scale VM movement and system transitions across distributed environments. Designed and implemented highly reliable REST APIs with robust error handling and retry mechanisms to ensure fault-tolerant data transfer and system interoperability.</li>
-			  <li>Developed transition checks, dependency services, authentication, and telemetry for tracking adoption and migration status.</li>
-			</ul>
-		  </article>
+				  <section class="experience-track" aria-labelledby="track-developer-productivity">
+					<h5 class="experience-track-title" id="track-developer-productivity">Developer Productivity</h5>
+					<article class="experience-project">
+					  <div class="experience-project-heading"><h6>Continuous Unit Testing &amp; Automated Failure Triage Platform</h6><span>Project Lead</span><time>2021 - 2026</time></div>
+					  <p class="experience-tech">Python | GitHub Actions | Test Automation | Failure Triage</p>
+					  <ul>
+						<li>Designed and scaled Python unit-test infrastructure integrated into commit precheck workflows, automatically validating every change for 100+ team members, reducing manual testing by 60%, and driving iterative improvements from user feedback.</li>
+						<li>Built an automated failure-triage system that correlated code changes and dependency failures to identify root causes and route issues to the responsible engineer, cutting triage effort by 80% and reducing pipeline downtime by 45%.</li>
+						<li>Implemented module-level pass-rate monitoring and daily GitHub Actions reporting to Google Chat, giving teams proactive visibility into pipeline health and faster feedback on regressions.</li>
+					  </ul>
+					</article>
 
-		  <article class="experience-project">
-			<div class="experience-project-heading"><h6>Frontend &amp; Full-Stack Projects</h6></div>
-			<p class="experience-tech">TypeScript | React</p>
-			<ul>
-			  <li><strong>vSAN Management UI:</strong> Contributed to disk-management functionality for vSAN in the vSphere Client management interface.</li>
-			  <li><strong>StockView | Personal Project:</strong> Built a portfolio dashboard to address gaps in my own investing workflow, integrating read-only Schwab balances and positions with custom holding groups, target tracking, and valuation snapshots.</li>
-			</ul>
-		  </article>
+				  <article class="experience-project">
+					<div class="experience-project-heading"><h6>Test Infrastructure Resource &amp; Queue Management Platform</h6><span>Project Lead</span><time>2025 - 2026</time></div>
+					<p class="experience-tech">Python | Flask | GitHub APIs | Priority Scheduling | Quota Management</p>
+					<ul><li>Designed and delivered an AI-assisted Flask resource-orchestration platform in 14 days using Cursor, integrating internal infrastructure and GitHub APIs for priority scheduling, quota enforcement, and automated resource lifecycle management; automated allocation, capacity monitoring, usage tracking, and bottleneck alerts, reducing infrastructure waste by 60% and improving operational visibility.</li></ul>
+				  </article>
+				  </section>
+
+				  <section class="experience-track" aria-labelledby="track-frontend-projects">
+					<h5 class="experience-track-title" id="track-frontend-projects">Frontend &amp; Full-Stack Projects</h5>
+				  <article class="experience-project" aria-label="vSAN Management UI">
+					<p class="experience-tech">vSphere Client</p>
+					<ul>
+					  <li><strong>vSAN Management UI:</strong> Contributed to disk-management functionality for vSAN in the vSphere Client management interface.</li>
+					</ul>
+				  </article>
+				  <article class="experience-project" aria-label="StockView personal project">
+					<p class="experience-tech">TypeScript | React</p>
+					<ul>
+					  <li><strong><a href="https://github.com/nicholeemma/stockview" target="_blank" rel="noopener">StockView | Personal Project:</a></strong> Built a portfolio dashboard to address gaps in my own investing workflow, integrating read-only Schwab balances and positions with custom holding groups, target tracking, and valuation snapshots.</li>
+					</ul>
+				  </article>
+				  </section>
+				</div>
+			  </details>
 
 		</div>
 	  </div>
@@ -466,7 +496,7 @@
 			  <p class="portfolio-kicker">Full-Stack Web Application</p>
 			  <h3>Synphony - Music Sharing Studio</h3>
 			  <p>A full-stack music-sharing application built to explore an end-to-end product experience, from interactive user flows and application logic through deployment.</p>
-			  <div class="portfolio-links"><a href="https://frozen-castle-16239.herokuapp.com/synphony/login" target="_blank" rel="noopener">View Project</a></div>
+				  <div class="portfolio-links"><a href="https://github.com/nicholeemma/synphony" target="_blank" rel="noopener">View Source</a></div>
 			</div>
 		  </article>
 		</div>
@@ -488,21 +518,44 @@
 <div class="section" id="education">
 <div class="container cc-education">
 <div class="h4 text-center mb-4 title">Education</div>
+	<div class="card education-highlights">
+	  <div class="row">
+		<div class="col-md-3 bg-primary">
+		  <div class="card-body cc-education-header">
+			<p>2026</p>
+			<div class="h5">Credentials &amp; Research</div>
+		  </div>
+		</div>
+		<div class="col-md-9">
+		  <div class="card-body education-highlight-list">
+			<article>
+			  <p class="education-highlight-label">Certification</p>
+			  <h5>AWS Certified Cloud Practitioner</h5>
+			  <p>Amazon Web Services (AWS) | Issued April 2026 | Credential ID 532774291</p>
+			</article>
+			<article>
+			  <p class="education-highlight-label">Research Preprint</p>
+			  <h5><a href="https://arxiv.org/abs/2610.33008" target="_blank" rel="noopener">TraceQuery: learning what to recompute from full-denoising trajectory in diffusion language models</a></h5>
+			  <p>Co-author | Submitted 7 October 2026 | arXiv:2610.33008</p>
+			</article>
+		  </div>
+		</div>
+	  </div>
+	</div>
 <div class="card">
   <div class="row">
 	<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
 	  <div class="card-body cc-education-header">
-		<p>2018- 2020</p>
+			<p>August 2018 - May 2020</p>
 		<div class="h5">Master's Degree</div>
 	  </div>
 	</div>
 	<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
 	  <div class="card-body">
 		<div class="h5"><a href="https://www.cmu.edu/">Carnegie Mellon University</a></div>
-		<p class="category">Master of Science in Information Technology <br>- Business Intelligence and Data Analytics</p>
-		<p><strong>GPA:</strong> 3.6/4.3</p>
-		<p><strong>Information Systems Assistant:</strong> Supported students by providing academic resources, gathering and translating user requirements into stakeholder recommendations, and maintaining accurate, up-to-date database records.</p>
-		<p>	Relevant courses:<br> Web Application Development, Object Oriented Programming in Java, Database Management, Data Structure, Linux &amp; Open Source, Internet of Things, Unstructured Data Analysis, Big Data and Data Science </p>
+			<p class="category">Master of Science in Information Technology - Business Intelligence and Data Analytics</p>
+			<p><strong>GPA:</strong> 3.6/4.3</p>
+			<p><strong>Information Systems Assistant:</strong> Supported students with academic resources, translated user needs into stakeholder recommendations, and maintained reliable information systems records.</p>
 	  </div>
 	</div>
   </div>
@@ -511,17 +564,16 @@
   <div class="row">
 	<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
 	  <div class="card-body cc-education-header">
-		<p>2014 - 2018</p>
+			<p>September 2014 - June 2018</p>
 		<div class="h5">Bachelor's Degree</div>
 	  </div>
 	</div>
 	<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
 	  <div class="card-body">
 		<div class="h5"><a href="http://lixin.admissions.cn/">Lixin University of Accounting and Finance</a></div>
-		<p class="category">Bachelor of Management in Information Management and System</p>
-		<p>(GPA: 3.7/4.0) Merit Base First Prize Scholarships for Outstanding Student and Social Practice </p>
-		<p>Relevant courses:<br>Advanced programming language(C), Object-Oriented Programming(C#), Linear Algebra,<br> Advanced Mathmatics, Computer Network, Software Testing, Advanced Database Technology
-			<br>Finance, Accounting, Financial Trading Information System Design, Financial Data Analysis</p>
+			<p class="category">Bachelor of Management in Information Management and Systems</p>
+			<p><strong>GPA:</strong> 3.7/4.0</p>
+			<p>Received First Prize Merit and Social Practice scholarships for academic achievement, leadership, and community contribution.</p>
 	  </div>
 	</div>
   </div>
@@ -542,7 +594,7 @@
 				<p class="mb-0"><strong>Phone</strong></p>
 				<p class="pb-2"><a href="tel:+61480844024">+61 480 844 024</a></p>
 				<p class="mb-0"><strong>Email</strong></p>
-				<p><a href="mailto:hpyangjiayue@gmail.com?subject=Portfolio%20enquiry">hpyangjiayue@gmail.com</a></p>
+				<p><a href="mailto:jiayueya@alumni.cmu.edu?subject=Portfolio%20enquiry">jiayueya@alumni.cmu.edu</a></p>
 			  </div>
 			</div>
 		  </div>

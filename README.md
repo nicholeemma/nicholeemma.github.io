@@ -1,15 +1,13 @@
 # Homepage
-Links to my personal websites
+Personal portfolio website
 <br>
-https://nicholeemma.github.io/homepage/
-<br>
-http://www.andrew.cmu.edu/user/jiayueya/
+https://nicholeemma.github.io/
 
 > The personal website shows my professional skills,
 > portfolio, experiences, and education.
 
 
 # Features
- - A HTML resume 
+ - An HTML resume
  - Built with Bootstrap 4, Now UI Kit and FontAwesome
- - Responsive design 
+ - Responsive design
