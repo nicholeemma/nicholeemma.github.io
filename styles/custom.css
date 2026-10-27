@@ -240,7 +240,7 @@ body {
 
 .experience-additional > summary {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   gap: 12px;
   padding: 16px 18px;
@@ -258,12 +258,6 @@ body {
 .experience-additional > summary:focus-visible {
   outline: 3px solid rgba(47, 125, 67, 0.28);
   outline-offset: 2px;
-}
-
-.experience-additional-count {
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 600;
 }
 
 .experience-additional .fa {
@@ -894,14 +888,6 @@ body {
 
   .experience-project-heading time {
     white-space: normal;
-  }
-
-  .experience-additional > summary {
-    grid-template-columns: minmax(0, 1fr) auto;
-  }
-
-  .experience-additional-count {
-    display: none;
   }
 
   .case-study-summary-layout {
